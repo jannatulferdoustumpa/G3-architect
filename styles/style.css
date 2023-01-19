@@ -1,0 +1,135 @@
+
+/*-- header and navigation style --*/
+.header{
+    display: grid;
+    background-color:rgba(255, 228, 196, 0.292);
+    margin: 1920 1322;
+    
+}
+.header-title{
+    margin-left: 10%;
+}
+.flex-container{
+    display: flex;
+    column-gap: 8px;
+    align-items: flex-start;
+    margin-left: 80%;
+    margin-top: 0%;
+}
+.btn-text-top{
+    margin-top: 0%;
+}
+
+.header-sub-title{
+    justify-content: center;
+    text-align: center;
+}
+.p{
+    text-align: center;
+}
+
+.container1{
+    width: 190px;
+    height: 62px;
+}
+.horizentally-center{
+    margin: 0px;
+    position: absolute;
+    left: 50%;
+    -ms-transform:translateX(-50%);
+    transform: translateX(-50%);
+}
+.primary-color{
+    background-color: coral;
+    color: white;
+    width: 180px;
+    height: 62px;
+}
+
+.center{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 85%;
+
+}
+/*-- main style --*/
+.container{
+    display:flex;
+    gap: 1px;
+}
+.container2{
+    display: flex;
+}
+.main-title{
+    right: 0;
+    float:right;
+    -ms-transform: translateY(-180%);
+    transform: translateY(-180%);
+}
+.primari-color{
+    color: coral;
+}
+.btn6{
+    color: white;
+    background-color:coral;
+    width: 190px;
+    height: 62px;
+}
+.container2{
+    display: flex;
+}
+.main2-sub-title{
+    display: flexbox;
+    left: 0%;
+    float: left;
+    -ms-transform: translateX(-120%);
+    transform: translateX(-120%);
+    top: 0px;
+    padding: 5px;
+    list-style: none;
+
+}
+.image{
+    right: 0%;
+    float: right;
+    -ms-transform: translateX(80%);
+    transform: translateX(80%);
+    top: 200px;
+}
+.btn7{
+    color:white;
+    background-color: coral;
+    width: 100px;
+    height: 60px;
+}
+.some-facts{
+    left: 20%;
+}
+.icon{
+    display: flex;
+    width: 100px;px;
+    height: 70px;
+    margin:20px;
+    padding: 20px;
+    gap:500%;
+    bottom: 20px;
+    justify-content: space-between;
+}
+.sponspors{
+    text-align: center;
+}
+.p{
+    text-align: center;
+}
+.sponspors{
+    gap:100%;
+    padding: 10px;
+    justify-content: space-between;
+}
+.footer{
+    background-color: blanchedalmond;
+    margin: 20px;
+    height: 20px;
+    width: 90px;
+}
